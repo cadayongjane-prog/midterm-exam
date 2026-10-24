@@ -1,0 +1,18 @@
+what is the primary operational differnce between git fetch and fit full? ANSWER: git fetch download changes from a ripository while git pull is a specific command-line instruction use to download and merge code
+you have uncommitted changes in your working directory and need to temporarily switch to another branch. which workflow prevents Git from blocking the checkout due to file overwrites? ANSWER: git stash
+when executing a git merge--no-of command, what specific behavior is enforced by Git? ANSWER: git merge --no-off
+what happens when you check out a specific commit hash (e.g.,git checkout a1b2c3d) instead of a branch name? ANSWER: detached HEAD state
+you need to apply a specific bug-fix commit from a development branch onto a stable release branch without merging the entire branch history. which command should you use? ANSWER: < commit hash >
+after performing a destructive git reset--hard operation, you realized you lost recent commit that were not on any branch. which utility can retrieve these dangling commit? ANSWER: git reflog
+you want to remove untracked files and directories from your working tree, including ignored files listed in.gitignore. which command flag comnbination achieves this?  ANSWER: git clean-fdx
+you need to undo a public commit that has already been pushed to a shared remote repository without altering the existing commit history or disrupting collaborators. which command is appropriate? ANSWER: git reverse < commit-hash >
+you want to identify the specific commit that introduced a regression but in a codebase with hundreds of historical commits. which utility automates this binary search process? ANSWER: git bisect
+what is the function of the --amend flag when used with git commit? ANSWER: 
+
+
+
+
+
+
+
+git commit --amend
